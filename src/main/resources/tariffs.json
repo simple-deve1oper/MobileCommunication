@@ -1,0 +1,117 @@
+{
+  "tariffs": [
+    {
+      "id": 4,
+      "type": "Social",
+      "name": "Super Tariff",
+      "numberClients": 878,
+      "quantity": {
+        "sms": 50,
+        "minutesCall": 500,
+        "gigabytesInternet": 50
+      },
+      "shareInternet": true,
+      "services": [
+        "FRESH_SOUND"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Enterprise",
+      "name": "Stable Tariff",
+      "numberClients": 1200,
+      "unlimited": {
+        "internet": true,
+        "sms": true,
+        "calls": true
+      },
+      "fixedPrice": 999.9
+    },
+    {
+      "id": 1,
+      "type": "Classic",
+      "name": "Classic Tariff",
+      "numberClients": 356,
+      "price": {
+        "perOneSms": 1.8,
+        "perOneMinuteCall": 2.45,
+        "perOneMbInternet": 8.0
+      }
+    },
+    {
+      "id": 3,
+      "type": "Online",
+      "name": "Online Tariff",
+      "numberClients": 765,
+      "quantity": {
+        "sms": 50,
+        "minutesCall": 500,
+        "gigabytesInternet": 50
+      },
+      "shareInternet": true
+    },
+    {
+      "id": 5,
+      "type": "Classic",
+      "name": "Simple Tariff",
+      "numberClients": 478,
+      "price": {
+        "perOneSms": 2.0,
+        "perOneMinuteCall": 2.0,
+        "perOneMbInternet": 5.0
+      }
+    },
+    {
+      "id": 6,
+      "type": "Enterprise",
+      "name": "Safe Tariff",
+      "numberClients": 478,
+      "unlimited": {
+        "internet": false,
+        "sms": true,
+        "calls": true
+      },
+      "fixedPrice": 543.78
+    },
+    {
+      "id": 7,
+      "type": "Online",
+      "name": "Start Tariff",
+      "numberClients": 127,
+      "quantity": {
+        "sms": 30,
+        "minutesCall": 350,
+        "gigabytesInternet": 15
+      },
+      "shareInternet": false
+    },
+    {
+      "id": 8,
+      "type": "Social",
+      "name": "Other Tariff",
+      "numberClients": 295,
+      "quantity": {
+        "sms": 30,
+        "minutesCall": 350,
+        "gigabytesInternet": 15
+      },
+      "shareInternet": false,
+      "services": [
+        "FRESH_SOUND",
+        "GAMES_NOW",
+        "BOOKS_FOR_ALL"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Online",
+      "name": "Smart Tariff",
+      "numberClients": 10000,
+      "quantity": {
+        "sms": 500,
+        "minutesCall": 1000,
+        "gigabytesInternet": 600
+      }
+    }
+  ]
+}

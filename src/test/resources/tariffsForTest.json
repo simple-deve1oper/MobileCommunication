@@ -1,0 +1,27 @@
+{
+  "tariffs": [
+    {
+      "id": 1,
+      "type": "Classic",
+      "name": "Classic Tariff",
+      "numberClients": 356,
+      "price": {
+        "perOneSms": 1.8,
+        "perOneMinuteCall": 2.45,
+        "perOneMbInternet": 8.0
+      }
+    },
+    {
+      "id": 3,
+      "type": "Online",
+      "name": "Online Tariff",
+      "numberClients": 765,
+      "quantity": {
+        "sms": 50,
+        "minutesCall": 500,
+        "gigabytesInternet": 50
+      },
+      "shareInternet": true
+    }
+  ]
+}
